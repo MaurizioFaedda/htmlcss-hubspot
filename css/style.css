@@ -2,10 +2,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+    line-height: 30px;
+
 }
 
 .container {
-    width: 1200px;
+    width: 1100px;
     margin:auto;
     height: auto;
     position:
@@ -28,10 +31,11 @@ a {
     height: 100px;
     background-color: #f4f8fb;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    display: inline-block;
 }
 
 .logo {
-    width: 200px;
+    width: 15%;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -45,12 +49,38 @@ a {
 
 .main-nav {
     width: 100%;
-    height: 120px;
+    height: 100px;
     background-color: #fff;
     display: table;
     position: relative;
 }
 
+.menu-main {
+    width: 60%;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+#menù li {
+    display: inline-block;
+}
+#menù a {
+        color: #425c77;
+        text-decoration: none;
+        height: 50px;
+        line-height: 50px;
+        font-size: 18px;
+        padding: 0 10px;
+        padding: 24px;
+        font-weight: bolder;
+}
+
+i {
+    color: #7d98b6;
+}
 /* fine stile nav */
 
 /* info sotto nav */
@@ -63,7 +93,7 @@ a {
 
 .info-botton-nav a {
     color: #fff;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 #underline {
@@ -83,8 +113,8 @@ a {
 
 img {
     width: 100%;
-}
+    height: auto;}
 
-.box.img {
-    width: 20%;
-    height: 120px;
+.box-img {
+    width: 100%;
+}
