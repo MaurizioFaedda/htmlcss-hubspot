@@ -7,6 +7,7 @@
 
 }
 
+/* stili in comune */
 .container {
     width: 1100px;
     margin:auto;
@@ -17,6 +18,17 @@
 a {
     text-decoration: none;
 }
+
+button {
+    background-color: #ff7a59;
+    color: #fff;
+    border: none;
+    padding: 24px;
+    font-weight: bolder;
+    border-radius: 2%;
+}
+
+
 
 
 /* Inizio stile nav */
@@ -105,16 +117,30 @@ i {
 /* inizio main centrale con png */
 .main {
     width: 100%;
-    height: auto;
+    height: 450px;
     background-color: #fef3ed;
     padding-top: 50px;
+}
+
+.title {
+    padding-top: 60px;
 
 }
 
-img {
-    width: 100%;
-    height: auto;}
+h2 {
+    font-size: 50px;
+    color: #32475a;
+    line-height: 60px;
+    font-weight: bolder;
+    margin-bottom: 18px;
+}
 
-.box-img {
-    width: 100%;
+p {
+    margin-bottom: 20px;
+}
+
+
+
+button.get {
+    font-size: 18px;
 }
