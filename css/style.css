@@ -12,7 +12,7 @@
     width: 1200px;
     margin:auto;
     height: auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 /* .container::after {
@@ -24,6 +24,18 @@
 a {
     text-decoration: none;
 }
+
+h3 {
+    font-size: 30px;
+    line-height: 46px;
+    margin-bottom: 26px;
+}
+
+h2, h3, h4, h5, p, li {
+    color: #32475a;
+}
+
+
 
 button {
     background-color: #ff7a59;
@@ -197,6 +209,8 @@ i {
     padding-top: 50px;
 }
 
+
+
 .title {
     padding-top: 60px;
 
@@ -240,7 +254,29 @@ button.get {
 
 .go {
     width: 33.33%;
-    height: 200px;
     border: 1px solid black;
     float: left;
+}
+
+#firstcell {
+    font-size: 20px;
+
+}
+
+.intoget {
+    padding: 30px;
+}
+
+.down-content {
+    margin-top: 30px;
+}
+
+.down-content .button{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.down-content button {
+    font-size: 18px;
+    width: 100%;
 }
