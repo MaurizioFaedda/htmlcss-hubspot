@@ -26,7 +26,7 @@ a {
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 38px;
     line-height: 46px;
     margin-bottom: 26px;
 }
@@ -237,7 +237,9 @@ button.get {
 /* Inizio service grid */
 .servizi {
     width: 100%;
-    background-color: #f4f8db;
+    background-color: #f1f4fb;
+    padding: 100px;
+
 }
 
 .servizi .container {
@@ -250,8 +252,14 @@ button.get {
     clear: both;
 }
 
+.fa-circle{
+    color: #ff7a59;
+    font-weight: bold;
+    font-size: 18px;
+}
+
 .grid:first-child .nb {
-    background-color: #f4f8db;
+    background-color: #f1f4fb;
 }
 .go {
     width: 30%;
@@ -259,7 +267,7 @@ button.get {
     background-color: #fff;
     margin: 1%;
     border: 1px solid #f4f8db;
-    border-radius: 1px;
+    border-radius: 2px;
 }
 
 #firstcell {
@@ -284,3 +292,97 @@ button.get {
     font-size: 18px;
     width: 100%;
 }
+
+/* fine grid service */
+
+
+/* inizio grid data */
+.data {
+    width: 100%;
+    background-color: #00adb5;
+}
+
+.descrizione {
+    width: 100%;
+    padding-top: 90px;
+
+}
+
+.descrizione h3 {
+    font-size: 32px;
+    font-weight: bolder;
+    color: #fff;
+    text-align: center;
+}
+
+.descrizione p {
+    font-size: 17px;
+    text-align: center;
+    color: #fff;
+}
+
+.grid.number {
+    padding-bottom: 90px;
+}
+
+.grid.number::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.box-data {
+    width: 25%;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    float: left;
+}
+
+.box-data.udx {
+    border-right: none;
+}
+
+.box-data.down {
+    width: 25%;
+    border-right: 1px solid #fff;
+    float: left;
+    border-bottom: none;
+}
+
+.box-data.ddx {
+    border: none;
+    float: left;
+}
+
+.box-data p {
+    color: #fff;
+    text-align: center;
+}
+
+.box-data h3 {
+    color: #fff;
+    text-align: center;
+}
+
+
+.box-data h2, i {
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+.box-data h3 {
+    font-size: 50px;
+    margin-top: -18px;
+}
+
+.box-data span {
+    font-size: 30px;
+    margin-left: -10px;
+    vertical-align: middle;
+}
+
+.box-data p {
+    margin-top: -20px;
+}
+/* fine grid data */
