@@ -386,3 +386,43 @@ button.get {
     margin-top: -20px;
 }
 /* fine grid data */
+
+/* inizio customers */
+
+.customers {
+    padding-top: 80px;
+}
+
+.customers-top::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.customers-testo {
+    width: 60%;
+    float: left;
+}
+
+.customers-logo {
+    width: 40%;
+    float: left;
+}
+
+.customers-logo::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.cust-logo {
+    width: 25%;
+    height: 50%;
+    float: left;
+    padding: 8px;
+}
+
+.cust-logo img {
+    width: 100%;
+}
