@@ -393,6 +393,10 @@ button.get {
     padding-top: 80px;
 }
 
+.customers-top {
+    padding: 90px 0;
+}
+
 .customers-top::after {
     content: "";
     display: table;
@@ -425,4 +429,29 @@ button.get {
 
 .cust-logo img {
     width: 100%;
+}
+
+.customers-start {
+    width: 50%;
+    float: left;
+}
+
+.customers-down::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.customers-img {
+    width: 30%;
+    height: auto;
+    float: right;
+}
+
+.customers-img img {
+    width: 100%;
+}
+
+.customers-down {
+    padding-bottom: 90px;
 }
