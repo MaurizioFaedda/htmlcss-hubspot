@@ -455,3 +455,12 @@ button.get {
 .customers-down {
     padding-bottom: 90px;
 }
+
+#button-customers {
+    padding: 20px;
+    width: 50%;
+}
+
+#p-down-button {
+    padding-top: 22px;
+}
