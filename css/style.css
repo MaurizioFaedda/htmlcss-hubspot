@@ -43,8 +43,11 @@ button {
     border: none;
     padding: 24px;
     font-weight: bolder;
-    border: 1px solid #ff7a59;
     border-radius: 2%;
+}
+
+button:hover {
+    background-color: rgba(255, 122, 89, 0.4)
 }
 
 .leng i {
@@ -65,6 +68,16 @@ button {
 
 /* top-nav */
 
+#login-top-nav {
+    color: #ff7a59;
+    background-color: #fff;
+    border: 2px solid #ff7a59;
+    border-radius: 2%;
+}
+
+#login-top-nav:hover {
+    background-color: rgba(255, 122, 89, 0.15)
+}
 
 .top-nav {
     width: 100%;
@@ -590,4 +603,26 @@ button.get {
     display: inline-block;
     float: right;
     padding-left: 30px;
+}
+
+/* bot fixed */
+
+.chat-bot {
+    position: fixed;
+    bottom: 5%;
+    left: 90%;
+
+
+}
+
+.chat {
+    width: 80px;
+    height: 80px;
+
+}
+
+
+
+.chat img {
+    width: 100%;
 }
