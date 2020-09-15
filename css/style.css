@@ -70,7 +70,8 @@ button {
     width: 100%;
     height: auto;
     background-color: #f4f8fb;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);    position: fixed;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    position: fixed;
 
 
 
@@ -78,7 +79,7 @@ button {
 
 .sx-box {
 width: 50%;
-height: 100px;
+/* height: 100px; */
 display: inline-block;
 float: left;
 }
@@ -115,7 +116,7 @@ float: left;
 
 .dx-box {
     width: 50%;
-    height: 100px;
+    /* height: 100px; */
     display: inline-block;
     float: right;
     padding-top: 15px;
@@ -155,10 +156,16 @@ float: left;
 
 .main-nav {
     width: 100%;
-    height: 100px;
     background-color: #fff;
+    padding-top: 100px;
     display: table;
     position: relative;
+
+}
+
+.navvv {
+    width: 100%;
+    padding-top: 130px;
 }
 
 .menu-main {
@@ -489,6 +496,10 @@ button.get {
     background-color: #32475a;
     width: 100%;
     height: auto;
+}
+
+.footer li {
+    vertical-align: text-top;
 }
 
 .li-title {
