@@ -47,8 +47,15 @@ button {
     border-radius: 2%;
 }
 
+.leng i {
+    color: #425c77;
+    font-size: 16px;
+}
 
-
+#menù i {
+    color: #425c77;
+    font-size: 18px;
+}
 
 /* Inizio stile nav */
 .nav {
@@ -189,6 +196,9 @@ i {
     padding-bottom: 30px;
 }
 
+.info-botton-nav span {
+    color: #fff;
+}
 
 .info-botton-nav a {
     color: #fff;
@@ -240,6 +250,10 @@ button.get {
     background-color: #f1f4fb;
     padding: 100px;
 
+}
+
+.top-content h4 {
+    color: #425c77;
 }
 
 .servizi .container {
@@ -480,7 +494,7 @@ button.get {
 }
 
 .foot-list {
-    /* padding-top: 160px; */
+    padding-top: 160px;
 }
 
 .li-title a, h4 {
