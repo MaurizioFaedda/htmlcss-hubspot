@@ -464,3 +464,49 @@ button.get {
 #p-down-button {
     padding-top: 22px;
 }
+
+
+/* Inizio footer */
+
+.footer {
+    background-color: #32475a;
+    width: 100%;
+    height: auto;
+}
+
+.li-title {
+    display: inline-block;
+    width: 24%;
+}
+
+.foot-list {
+    padding-top: 160px;
+}
+
+.li-title a, h4 {
+    color: #fff;
+    text-decoration: none;
+}
+
+.li-div-fff {
+
+    width: 90%;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    padding: 8px;
+    margin: 10px 0;
+}
+
+.li-div-fff a {
+    color: #425c77;
+    padding: 20px;
+}
+
+.li-div-fff i {
+    color: #fff;
+}
+
+.li-div-fff li {
+    display: inline-block;
+}
