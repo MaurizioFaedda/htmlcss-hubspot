@@ -336,7 +336,8 @@ button.get {
 /* inizio grid data */
 .data {
     width: 100%;
-    background-color: #00adb5;
+    background: rgb(0,167,186);
+    background: linear-gradient(90deg, rgba(0,167,186,1) 0%, rgba(0,186,167,1) 100%);
 }
 
 .descrizione {
@@ -610,7 +611,7 @@ button.get {
 .chat-bot {
     position: fixed;
     bottom: 5%;
-    left: 90%;
+    left: 94%;
 
 
 }
